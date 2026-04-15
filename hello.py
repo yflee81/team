@@ -19,7 +19,7 @@ def recordaudio():
 def SpeechToText(file_path: str) -> str:  
     try:
 
-        model = whisper.load_model("base")
+        model = whisper.load_model("medium")
         
         result = model.transcribe(file_path, fp16 = False)
         
