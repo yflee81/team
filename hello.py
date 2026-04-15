@@ -12,15 +12,13 @@ def recordaudio():
     print('end')
 
     write('output.wav', fs, myrecording)
-    print(f"saved as {os.path.abspath('output.wav')}")
 
     
     
 
 def SpeechToText(file_path: str) -> str:  
     try:
-        # Load the model (options: 'tiny', 'base', 'small', 'medium', 'large')
-        # The model is downloaded the first time you run this.
+
         model = whisper.load_model("base")
         
         # Transcribe the audio file
