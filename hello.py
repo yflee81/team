@@ -21,8 +21,7 @@ def SpeechToText(file_path: str) -> str:
 
         model = whisper.load_model("base")
         
-        # Transcribe the audio file
-        result = model.transcribe(file_path)
+        result = model.transcribe(file_path, fp16 = False)
         
         return result["text"].strip()
     except FileNotFoundError:
@@ -35,6 +34,5 @@ file_path = 'output.wav'
 x = SpeechToText(file_path)
 print(x)
 
-# Delete the file after processing is complete
 if os.path.exists(file_path):
     os.remove(file_path)
