@@ -1,7 +1,6 @@
 import sounddevice as sd
 import whisper
 from scipy.io.wavfile import write
-import os
 
 def recordaudio():
     fs = 16000
