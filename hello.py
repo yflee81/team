@@ -1,12 +1,14 @@
 import sounddevice as sd
+def recordaudio():
+    fs = 16000
+    duration = 5
+    print('start')
+    myrecording = sd.rec((duration * fs), samplerate = fs, channels = 2)
+    sd.wait()
+    print('end')
 
-fs = 16000
-duration = 5
-print('start')
-myrecording = sd.rec((duration * fs), samplerate = fs, channels = 2)
-sd.wait()
-print('end')
+    sd.play(myrecording, fs)
+    sd.wait()
+    print('done')
 
-sd.play(myrecording, fs)
-sd.wait()
-print('done')
+recordaudio()
