@@ -1,2 +1,9 @@
-additional research topics
+source and assess pre-trained multilingual STT models (Whisper, PalabraAI) and rule-based extraction (spaCy)
+
+source for voice/speech and text datasets with relevant HADR content
+    - from offiial foreign news and reports, HADR glossary, military/civilian jargon, disaster terminology, resource vocabularies, place names
+
+develop (multimodal) translation engine and validate outputs by fine-tuning the parameters
+
+week 2: additional research topics
 further reading and reseach on nlp tools and HADR operations
