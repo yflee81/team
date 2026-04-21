@@ -7,3 +7,6 @@ develop (multimodal) translation engine and validate outputs by fine-tuning the 
 
 week 2: additional research topics
 further reading and reseach on nlp tools and HADR operations
+
+whisper: transcribe speech (speech to text)
+qwen: transalte the text
