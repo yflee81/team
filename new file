@@ -9,4 +9,5 @@ week 2: additional research topics
 further reading and reseach on nlp tools and HADR operations
 
 whisper: transcribe speech (speech to text)
+https://medium.com/@lenny.bijan/finetuning-openais-whisper-creating-metadata-integration-into-huggingface-ii-bda52b31ef2e
 qwen: transalte the text
