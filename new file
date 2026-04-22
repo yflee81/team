@@ -2,11 +2,15 @@ source and assess pre-trained multilingual STT models (Whisper, PalabraAI) and r
 
 source for voice/speech and text datasets with relevant HADR content
     - from offiial foreign news and reports, HADR glossary, military/civilian jargon, disaster terminology, resource vocabularies, place names
+    - Mozilla Foundation’s Common Voice: dataset for (most of the) 12 languages
 
 develop (multimodal) translation engine and validate outputs by fine-tuning the parameters
 
 week 2: additional research topics
 further reading and reseach on nlp tools and HADR operations
+
+participants' feedback areas such as predictive capabilities, AI decision making and AI-generated HADR training modules.
+OPERA 3.0 development roadmap: Incorporate predictive analytics and AI tools to support remote damage assessment, auto-matching of Requests for Assistance (RFA) with assets, AI translation etc. 
 
 whisper: transcribe speech (speech to text)
 https://medium.com/@lenny.bijan/finetuning-openais-whisper-creating-metadata-integration-into-huggingface-ii-bda52b31ef2e
