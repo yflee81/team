@@ -17,3 +17,5 @@ https://medium.com/@lenny.bijan/finetuning-openais-whisper-creating-metadata-int
 Beyond linguistic diversity, the context in which an ASR system is deployed can greatly influence its performance. Industries such as healthcare, legal, and technical fields often employ jargon, acronyms, and phrases that are vastly different from everyday language. A generic ASR model, however proficient in common discourse, may falter when faced with specialized terminology. Customizing ASR systems for these niche applications is not merely a matter of convenience but a necessity for achieving operational efficiency and accuracy. For instance, a medical transcription service requires an ASR system that can accurately interpret and transcribe terms like ‘euthyroid’ or ‘hemicolectomy’, mistakes in which could have serious implications. Therefore, additional training proves to be essential in order to customize and ultimately improve Whisper’s performance for specific languages or unique use cases.
 
 qwen: transalte the text
+
+week 3: determine scope, objectives, schedule, tools and data for internship project
