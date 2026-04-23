@@ -2,8 +2,29 @@ source and assess pre-trained multilingual STT models (Whisper, PalabraAI) and r
 
 source for voice/speech and text datasets with relevant HADR content
     - from offiial foreign news and reports, HADR glossary, military/civilian jargon, disaster terminology, resource vocabularies, place names
+    - Mozilla Foundation’s Common Voice: dataset for (most of the) 12 languages
 
 develop (multimodal) translation engine and validate outputs by fine-tuning the parameters
 
 week 2: additional research topics
 further reading and reseach on nlp tools and HADR operations
+
+participants' feedback areas such as predictive capabilities, AI decision making and AI-generated HADR training modules.
+OPERA 3.0 development roadmap: Incorporate predictive analytics and AI tools to support remote damage assessment, auto-matching of Requests for Assistance (RFA) with assets, AI translation etc. 
+
+whisper: transcribe speech (speech to text)
+https://medium.com/@lenny.bijan/finetuning-openais-whisper-creating-metadata-integration-into-huggingface-ii-bda52b31ef2e
+Beyond linguistic diversity, the context in which an ASR system is deployed can greatly influence its performance. Industries such as healthcare, legal, and technical fields often employ jargon, acronyms, and phrases that are vastly different from everyday language. A generic ASR model, however proficient in common discourse, may falter when faced with specialized terminology. Customizing ASR systems for these niche applications is not merely a matter of convenience but a necessity for achieving operational efficiency and accuracy. For instance, a medical transcription service requires an ASR system that can accurately interpret and transcribe terms like ‘euthyroid’ or ‘hemicolectomy’, mistakes in which could have serious implications. Therefore, additional training proves to be essential in order to customize and ultimately improve Whisper’s performance for specific languages or unique use cases.
+
+qwen: transalte the text
+
+week 3: determine scope, objectives, schedule, tools and data for internship project
+
+evaluation matrx: how fast, accurate
+
+speech tagging: pyannote.audio
+
+https://huggingface.co/blog/fine-tune-whisper
+
+https://huggingface.co/models?pipeline_tag=automatic-speech-recognition&sort=trending
+
