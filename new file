@@ -22,4 +22,9 @@ week 3: determine scope, objectives, schedule, tools and data for internship pro
 
 evaluation matrx: how fast, accurate
 
-speech tagging: pyannote.au
+speech tagging: pyannote.audio
+
+https://huggingface.co/blog/fine-tune-whisper
+
+https://huggingface.co/models?pipeline_tag=automatic-speech-recognition&sort=trending
+
