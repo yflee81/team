@@ -19,3 +19,7 @@ Beyond linguistic diversity, the context in which an ASR system is deployed can 
 qwen: transalte the text
 
 week 3: determine scope, objectives, schedule, tools and data for internship project
+
+evaluation matrx: how fast, accurate
+
+speech tagging: pyannote.au
