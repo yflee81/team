@@ -28,3 +28,5 @@ https://huggingface.co/blog/fine-tune-whisper
 
 https://huggingface.co/models?pipeline_tag=automatic-speech-recognition&sort=trending
 
+google colab notebook for intructions on finetuning whisper: https://colab.research.google.com/github/sanchit-gandhi/notebooks/blob/main/fine_tune_whisper.ipynb
+
