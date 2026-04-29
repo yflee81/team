@@ -32,3 +32,6 @@ https://huggingface.co/models?pipeline_tag=automatic-speech-recognition&sort=tre
 
 google colab notebook for intructions on finetuning whisper: https://colab.research.google.com/github/sanchit-gandhi/notebooks/blob/main/fine_tune_whisper.ipynb
 
+
+finetuning whisper using mozilla data collective: https://www.linkedin.com/pulse/fine-tune-speech-to-text-model-any-language--g4rse
+video guide: https://community.mozilladatacollective.com/dev-talks/#fine-tuning-a-whisper-model-with-mdc-datasets
