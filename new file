@@ -35,3 +35,6 @@ google colab notebook for intructions on finetuning whisper: https://colab.resea
 
 finetuning whisper using mozilla data collective: https://www.linkedin.com/pulse/fine-tune-speech-to-text-model-any-language--g4rse
 video guide: https://community.mozilladatacollective.com/dev-talks/#fine-tuning-a-whisper-model-with-mdc-datasets
+
+finetuning whisper with lora: https://medium.com/@anitaliubfsu/fine-tuning-whisper-with-lora-c796781f00f5
+Google text-to-speech API to convert text to synthetic audio samples which can be used to finetune the Whisper model
